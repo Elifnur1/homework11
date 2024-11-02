@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Burası Contact Sayfasıdır</h1>
+<div class="container mt-5">
+    <h2 class="mb-4">İletişim Formu</h2>
+    <form>
+        <div class="mb-3">
+            <label for="fullName" class="form-label">Ad Soyad</label>
+            <input type="text" class="form-control" id="fullName" placeholder="Adınızı ve Soyadınızı girin">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email adresinizi girin">
+        </div>
+        <div class="mb-3">
+            <label for="subject" class="form-label">Konu</label>
+            <input type="text" class="form-control" id="subject" placeholder="Konu girin">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Mesaj</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Mesajınızı yazın"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Gönder</button>
+    </form>
+</div>

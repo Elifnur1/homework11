@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="background-color: black; color: aliceblue;">Burası About Sayfası</h1>
+<div style="background-color:  black; color: aliceblue;">
+    <div class="container">
+        @foreach(var about in ViewBag.AboutList)
+        {
+            <p>@about.Özgecmis</p>
+
+        }
+    </div>
